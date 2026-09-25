@@ -1,0 +1,14 @@
+HellMC-Distribution-Types
+Copyright © 2026 TnTVlogs
+
+This package is an independent, clean-room implementation of the distribution
+format described in `docs/distro.md` (MIT License) of HeliosLauncher, written
+by Daniel D. Scalzi:
+  https://github.com/dscalzi/HeliosLauncher/blob/master/docs/distro.md
+
+No code from `helios-distribution-types` (https://github.com/dscalzi/helios-distribution-types)
+was consulted or copied. That package carries no license and is not a source
+for this repository; only the written MIT-licensed specification and the
+observable shape of real `distribution.json` files were used.
+
+Full license text: LICENSE.
