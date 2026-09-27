@@ -24,7 +24,7 @@ types for the `distribution.json` **v2** format used by `HellMC-Core`,
   `Version.label`, `Module.dependencies` (HellMC-only, used for optional mod
   dependency groups).
 
-Full rationale: `docs/newDocs/client-redesign/01-terminologia-i-dades.md` in
+Full rationale: `docs/client-redesign/01-terminologia-i-dades.md` in
 `HellMC-Client`.
 
 ## Usage

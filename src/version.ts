@@ -40,4 +40,12 @@ export interface Version {
     icon?: string
     /** Whether this version is visible in the published distribution. */
     published?: boolean
+    /**
+     * Whether the player can share saves/resourcepacks/etc. between this version and others (D26).
+     * `shared` (default when omitted, for compatibility with clients/distributions that predate
+     * this field): the player may opt in or out per version. `forcedSeparate`: the admin has locked
+     * this version to always have its own data, no player choice shown — see
+     * `01-terminologia-i-dades.md` §3.1.1.
+     */
+    dataSharing?: 'shared' | 'forcedSeparate'
 }

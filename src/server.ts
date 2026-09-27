@@ -24,10 +24,10 @@ export interface Server {
     description: string
     /** Optional long-form Markdown description, shown on the server detail view. */
     descriptionLong?: string
-    /** URL to the server's (square) icon. */
-    icon: string
-    /** URL to the server's banner (fixed aspect ratio, e.g. 16:5). */
-    banner: string
+    /** URL to the server's (square) icon, if one is set. */
+    icon?: string
+    /** URL to the server's banner (fixed aspect ratio, e.g. 16:5), if one is set. */
+    banner?: string
     /** `host` or `host:port` to connect to. */
     address: string
     /** Whether the client should auto-connect to this address on launch, if the player enabled that setting. */
